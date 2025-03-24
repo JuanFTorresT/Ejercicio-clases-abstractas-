@@ -27,7 +27,7 @@ public class EmpleadoComision extends Empleado{
 		if ((numeroClientes*comisionCliente)<sueldoBase) {
 			return "El sueldo es: " + sueldoBase;
 		}else {
-			sueldoBase += numeroClientes*comisionCliente;
+			sueldoBase = numeroClientes*comisionCliente;
 			return "El sueldo es: " + sueldoBase;
 		}
 	}

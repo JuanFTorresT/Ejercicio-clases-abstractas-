@@ -26,7 +26,7 @@ public class UsoEmpleados {
 		maria.setApellidos("Ramos");
 		maria.setDni("77879878F");
 		maria.setAñoIngresoEmpresa(2011);
-		maria.setSueldoBase(1055);
+		maria.setSueldoBase(1055);	
 		
 		
 		Empleado.sueldoMayor(empleados);
